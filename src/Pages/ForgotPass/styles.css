@@ -1,0 +1,18 @@
+.login-container-top {
+    box-sizing: content-box;
+    background-color: #FFF;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;   /* Arredonda as bordas da caixa de login */
+    text-align: center,justify ;  
+}
+
+#forgot-pass-message {
+  margin-top: 30px;
+}
+
+
+
+

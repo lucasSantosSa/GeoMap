@@ -1,0 +1,98 @@
+main.body {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+    height: 525px;
+}
+
+header.header-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    height: 60px;
+}
+
+header button {
+    width: 250px;
+    height: 20px;
+    font-weight: bold;
+}
+
+h3.header-main{
+    margin: 15px 20px 10px 40px;
+    margin-top: auto;
+}
+
+div.editicon {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 25px;
+    color: #E33D4B;
+    margin-top: auto;
+
+    cursor: pointer;
+}
+
+
+
+header.header-main button {
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.project-description li{
+    width: 530px;
+    height: 350px;
+    margin-left: -30px;
+}
+
+div.project-description {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 400px;
+}
+
+div.project-description img {
+    width: 530px;
+    height: 350px;
+    
+    margin-top: 30px;
+}
+
+div.description {
+    margin: 10px 0 10px 30px;
+    height: 200px;
+}
+
+div.container2 {
+    margin: 10px 0 10px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    height: 20px;
+    padding: 0;
+    
+}
+    
+footer.body {
+    width: 250px;
+    padding: none;
+    margin: auto;
+    text-align: center;
+}   
+
+div.header {
+    height: 20px;
+}
+
+a.exit{
+    color: #FFFFFF;
+    text-decoration: none;
+}

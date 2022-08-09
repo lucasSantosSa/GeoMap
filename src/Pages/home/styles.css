@@ -1,0 +1,28 @@
+
+a {
+    color: #E33D4B;
+    font-weight: bolder; 
+}
+
+#register {
+    text-decoration: none;
+}
+
+#forgot-pass {
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.login-utils {
+    box-sizing: content-box;
+    margin-top: 15px;
+    display: inline-flex;
+    align-content: center;
+    margin-right: 10px; 
+}
+
+p {
+    font-size: 13px;
+}
+

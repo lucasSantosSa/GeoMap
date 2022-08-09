@@ -1,0 +1,119 @@
+
+::placeholder {
+    color: #000000;
+    font-weight: normal;
+}
+
+.header {
+    box-sizing: content-box;
+    padding: 15px 100px 15px 100px;
+    background-color: #E33D4B;
+}
+
+#login-container {
+    box-sizing: content-box;
+    background-color: #FFF;
+    width: 300px;
+    margin-top: 0.5vh;   /* Faz o topo do bloco de login ficar 1% abaixo da tela do usuário */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;   /* Arredonda as bordas da caixa de login */
+    text-align: center ;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-button {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: -38px;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;    /* Deixa o input longe das bordas */
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+button {
+    box-sizing:content-box;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: #E33D4B;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none; 
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#ff0015;
+    transition: .7s;
+}
+
+#logo {
+    margin: auto;
+    text-align: center;
+}
+
+.foot {
+    display:inline;
+    color: #FFFFFF;
+    margin-left: 250px;
+}
+
+
+#instaicon { 
+    margin-left: 150px;
+}
+
+#faceicon { 
+    margin-left: 150px;
+    height: 30px;
+    width: 30px;
+}
+
+
+.siteFooterBar {
+    
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    background: #000000;
+}
+
+.content {
+    display: block;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+#TerralabLogo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 80px;
+    margin-top: -15px;
+}
